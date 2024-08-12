@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="home">
+        <h3>HOME</h3> 
+        <textarea class="score-home" id="score-home">0</textarea>
+        <button class="addone" onclick="addone()">+1</button>
+        <button class="addtwo" onclick="addtwo()">+2</button>
+        <button class="addthree" onclick="addthree()">+3</button>
+      </div>
+      <div class="guest">
+        <h3>GUEST</h3> 
+        <textarea class="score-guest" id="score-guest">0</textarea>
+        <button class="addone" onclick="guestaddone()">+1</button>
+        <button class="addtwo" onclick="guestaddtwo()">+2</button>
+        <button class="addthree" onclick="guestaddthree()">+3</button>
+      </div>
+    </div>
+    
+    <div class="reset" >
+        <button class="reset-button" onclick="resetScores()">Reset</button>
+      </div>
+    
+    <script src="script.js"></script>
+  </body>
+</html>

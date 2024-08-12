@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+body {
+    margin: 0;
+    background-color: #1B244A;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.home h3{
+    font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-size: 80px;
+  font-style: normal;
+  color: azure;
+}
+
+.home .score-home {
+    background-color: black;
+    border-radius: 30px;
+    height: 350px;
+    width: 350px;
+    color: red;
+    text-align: center;
+    display: block;
+    font-size: 250px;
+}
+
+.home button {
+    margin-top: 30px;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: 30px;
+    font-style: normal;
+    color: azure;
+    background-color: black;
+    border-radius: 10px;
+    height: 80px;
+    width: 80px;
+}
+
+.guest h3{
+    font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-size: 80px;
+  font-style: normal;
+  color: azure;
+}
+
+.guest .score-guest {
+    background-color: black;
+    border-radius: 30px;
+    height: 350px;
+    width: 350px;
+    color: red;
+    text-align: center;
+    display: block;
+    font-size: 250px;
+}
+
+.guest button {
+    margin-top: 30px;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: 30px;
+    font-style: normal;
+    color: azure;
+    background-color: black;
+    border-radius: 10px;
+    height: 80px;
+    width: 80px;
+}
+
+.reset{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.reset button {
+    margin-top: 30px;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: 20px;
+    font-style: normal;
+    color: azure;
+    background-color: black;
+    border-radius: 10px;
+    height: 60px;
+    width: 90px;
+}
